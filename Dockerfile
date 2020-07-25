@@ -5,5 +5,5 @@ RUN apk add -U --no-cache pdnsd
 
 EXPOSE 53/tcp 53/udp
 
-CMD ["pdnsd"]
+ENTRYPOINT ["pdnsd"]
 
